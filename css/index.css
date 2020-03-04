@@ -89,7 +89,6 @@ video {
   font-size: 62.5%;
   font: inherit;
   vertical-align: baseline;
-  border: 1px solid black;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -141,7 +140,7 @@ header {
 }
 header img {
   width: 100%;
-  height: auto;
+  height: 100vh;
   opacity: 0.5;
 }
 header .head-cont {
@@ -154,22 +153,26 @@ header .head-cont {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-}
-header .head-cont h1 {
-  font-size: 3.3em;
-  color: #7A542E;
-  text-shadow: 1px solid black;
 }
 header .head-cont nav {
   display: flex;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-around;
+  width: 90%;
 }
 header .head-cont nav a {
-  font-size: 1.2rem;
-  margin-left: 1%;
-  border-left: 1px solid black;
+  font-size: 3rem;
   text-decoration: none;
-  color: #1F5673;
+  color: snow;
+  text-transform: uppercase;
+}
+header .head-cont nav a:hover {
+  text-shadow: 5px 5px 2.5px black;
+  text-transform: lowercase;
+}
+.about-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
