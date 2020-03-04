@@ -222,6 +222,7 @@ header .head-cont nav a:hover {
 }
 #about .card .left .bottom .innerLeft h3 {
   font-size: 3rem;
+  border-bottom: 1px solid black;
 }
 #about .card .left .bottom .innerLeft p {
   font-size: 1.5rem;
@@ -233,7 +234,6 @@ header .head-cont nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   flex-direction: column;
   padding: 0 3.5% 0 2.5%;
   margin-top: 8%;
@@ -244,11 +244,14 @@ header .head-cont nav a:hover {
 }
 #about .card .left .bottom .innerRight ul {
   margin: 5% 0;
+  width: 100%;
 }
 #about .card .left .bottom .innerRight li {
   font-size: 1.9rem;
   margin: 5% 0;
-  line-height: 1.5;
+  line-height: 1;
+  border: 1px solid black;
+  width: 100%;
 }
 #about .card .right {
   width: 49%;
