@@ -185,13 +185,13 @@ header .head-cont nav a:hover {
   background-color: #313831;
   display: flex;
 }
-#about .card .right {
+#about .card .left {
   margin: 1%;
   width: 49%;
   background-color: #8A8D91;
 }
-#about .card .right .top {
-  margin: 2% 1%;
+#about .card .left .top {
+  margin: 2% 1.5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,33 +202,33 @@ header .head-cont nav a:hover {
   line-height: 1.5;
   text-align: center;
 }
-#about .card .right .top .myName {
+#about .card .left .top .myName {
   text-decoration: underline;
 }
-#about .card .right .top .interests {
+#about .card .left .top .interests {
   font-size: 2rem;
   display: block;
 }
-#about .card .right .bottom {
+#about .card .left .bottom {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#about .card .right .bottom .innerRight {
+#about .card .left .bottom .innerLeft {
   width: 49%;
   border-right: 2px solid black;
   padding: 0 3.5% 0 2.5%;
   margin-top: 3%;
 }
-#about .card .right .bottom .innerRight h3 {
+#about .card .left .bottom .innerLeft h3 {
   font-size: 3rem;
 }
-#about .card .right .bottom .innerRight p {
+#about .card .left .bottom .innerLeft p {
   font-size: 1.5rem;
   padding: 4% 0;
   line-height: 1.1;
 }
-#about .card .right .bottom .innerLeft {
+#about .card .left .bottom .innerRight {
   width: 49%;
   display: flex;
   justify-content: center;
@@ -238,18 +238,18 @@ header .head-cont nav a:hover {
   padding: 0 3.5% 0 2.5%;
   margin-top: 8%;
 }
-#about .card .right .bottom .innerLeft h3 {
+#about .card .left .bottom .innerRight h3 {
   font-size: 3rem;
   border-bottom: 1px solid black;
 }
-#about .card .right .bottom .innerLeft ul {
+#about .card .left .bottom .innerRight ul {
   margin: 5% 0;
 }
-#about .card .right .bottom .innerLeft li {
+#about .card .left .bottom .innerRight li {
   font-size: 1.9rem;
   margin: 5% 0;
   line-height: 1.5;
 }
-#about .card .left {
+#about .card .right {
   width: 49%;
 }
