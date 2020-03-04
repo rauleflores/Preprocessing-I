@@ -86,9 +86,10 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 62.5%;
   font: inherit;
   vertical-align: baseline;
+  border: 1px solid black;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -136,12 +137,39 @@ body {
   background-color: #424C55;
 }
 header {
+  position: relative;
+}
+header img {
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
+header .head-cont {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: auto 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-header nav {
+header .head-cont h1 {
+  font-size: 3.3em;
+  color: #7A542E;
+  text-shadow: 1px solid black;
+}
+header .head-cont nav {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+header .head-cont nav a {
+  font-size: 1.2rem;
+  margin-left: 1%;
+  border-left: 1px solid black;
+  text-decoration: none;
+  color: #1F5673;
 }

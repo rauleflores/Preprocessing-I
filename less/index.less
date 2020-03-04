@@ -20,9 +20,10 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
+	border: 1px solid black;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -68,19 +69,42 @@ html, body {
 		justify-content: center;
 		align-items: center;
 	}
-	.
 
 //Header
+	header{
+		position: relative;
+		img{
+			width: 100%;
+			height: auto;
+			opacity: 0.5;
+		}
 		.head-cont{
-			width: 100%
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 100%;
+			text-align: center;
+			margin: auto 0;
 			.center();
 			flex-direction: column;
-			border: 1px solid black;
 
+			h1{
+				font-size: 3.3em;
+				color: #7A542E;
+				text-shadow: 1px solid black;
+			}
 			nav{
 				display: flex;
-				flex-direction: row;
-				width: 80%;
-				
+				justify-content: center;
+				width: 100%;
+
+				a{
+					font-size: 1.2rem;
+					margin-left: 1%;
+					border-left: 1px solid black;
+					text-decoration: none;
+					color: #1F5673;
+				}						
 			}
 		}
+	}
