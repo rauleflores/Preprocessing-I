@@ -55,27 +55,32 @@ table {
 
 html, body {
 	height: 100%;
-	background-color: red;
+	background-color: @primary-color;
 }
 
 //Variables
-	@primary-color: ;
+	@primary-color: #424C55;
+	@secondary-color: #8A8D91;
 
 //Mixins
-
-//Header
-	header{
+	.center(){
 		display: flex;
-		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+	.
 
-		nav{
-			display: flex;
-			flex-direction: row;
-			
-			li{
-				text-decoration: none;
+//Header
+		.head-cont{
+			width: 100%
+			.center();
+			flex-direction: column;
+			border: 1px solid black;
+
+			nav{
+				display: flex;
+				flex-direction: row;
+				width: 80%;
+				
 			}
 		}
-	}

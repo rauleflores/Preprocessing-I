@@ -133,18 +133,15 @@ table {
 html,
 body {
   height: 100%;
-  background-color: red;
+  background-color: #424C55;
 }
 header {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 header nav {
   display: flex;
   flex-direction: row;
-}
-header nav li {
-  text-decoration: none;
 }
