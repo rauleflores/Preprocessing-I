@@ -1,3 +1,4 @@
+@import url("fontawesome-all.min.css");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -306,9 +307,10 @@ header .head-cont nav a:hover {
   text-align: center;
 }
 #contact .card .left .top h3 {
-  margin: 5% auto;
+  margin: 5% 0;
 }
 #contact .card .left .top p {
+  margin: 5% 0;
   font-size: 1.5rem;
 }
 #contact .card .left .bottom {
@@ -319,44 +321,32 @@ header .head-cont nav a:hover {
   width: 100%;
   height: 75%;
 }
-#contact .card .left .bottom .innerLeft {
-  width: 49%;
-  border-right: 2px solid black;
-  padding: 0 3.5% 0 2.5%;
-  margin-top: 3%;
-}
-#contact .card .left .bottom .innerLeft h3 {
-  font-size: 3rem;
-  border-bottom: 1px solid black;
-}
-#contact .card .left .bottom .innerLeft p {
-  font-size: 1.5rem;
-  padding: 4% 0;
-  line-height: 1.1;
-}
-#contact .card .left .bottom .innerRight {
-  width: 49%;
+#contact .card .left .bottom .reachout-2 {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 0 3.5% 0 2.5%;
+  margin-top: 3%;
+}
+#contact .card .left .bottom .reachout-2 .fab {
+  width: 100px;
+  height: 100px;
+}
+#contact .card .left .bottom .reachout-2 a {
+  color: black;
+}
+#contact .card .left .bottom .contact2 {
+  width: 55%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: slategray;
+  flex-direction: column;
+  padding: 0 3.5% 0 2.5%;
   margin-top: 8%;
-}
-#contact .card .left .bottom .innerRight h3 {
-  font-size: 3rem;
-  border-bottom: 1px solid black;
-}
-#contact .card .left .bottom .innerRight ul {
-  margin: 5% 0;
-  width: 100%;
-}
-#contact .card .left .bottom .innerRight li {
-  font-size: 1.9rem;
-  margin: 5% 0;
-  line-height: 1;
-  border: 1px solid black;
-  width: 100%;
 }
 #contact .card .right {
   margin: 1% 1% 1% 0.5%;
@@ -365,22 +355,21 @@ header .head-cont nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
-#contact .card .right .top {
+#contact .card .right input[type=text],
+#contact .card .right textarea {
   width: 100%;
+  padding: 5%;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 2%;
+  margin-bottom: 4%;
 }
-#contact .card .right .top h3 {
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 10%;
-  text-decoration: underline;
-}
-#contact .card .right .bottom {
-  height: 70%;
-}
-#contact .card .right .bottom img {
-  width: 100%;
-  height: 100%;
-  padding: 2%;
+#contact .card .right input[type=submit] {
+  color: black;
+  padding: 12px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  resize: vertical;
 }
