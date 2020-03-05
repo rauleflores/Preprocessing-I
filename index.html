@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>My Resume</title>
   <link rel="stylesheet" href="css/index.css">
+  <script src="https://kit.fontawesome.com/18637aa7f5.js" crossorigin="anonymous"></script>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -18,7 +19,7 @@
       <nav>
         <a href="index.html">Home</a>
         <a href="#about">About</a>
-        <a href="">Contact</a>
+        <a href="#contact">Contact</a>
         <a href="">Gallery</a>
       </nav>
     </div>
@@ -71,6 +72,49 @@
   <!--End about-->
 
   <!--Start contact section-->
+  <div id="contact">
+    <div class="card">
+      <div class="left">
+        <div class="top">
+          <h3>Reachout!</h3>
+          <p>
+            Send me an email, or find me on social media!
+          </p>
+        </div>
+        <div class="bottom">
+          <div class="reachout-2">
+            <div>
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+            </div>
+            <div>
+              <a href="https://twitter.com/"><i class="fab fa-github-square"></i></a>
+              <a href="https://www.youtube.com/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>        
+          <div class="contact2">
+            <p>13710 Lakota Rd
+            Apple Valley, CA 92307</p></br>
+            <p>1 (760) 403-3660</p></br>
+            <a href="mailto: raulefloresjr@gmail.com">raulefloresjr@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <form action="/action_page.php">
+        <label for="fname">First Name</label></br>
+        <input type="text" id="fname" name="firstname" placeholder="First name."></br>
+        <label for="lname">Last Name</label></br>
+        <input type="text" id="lname" name="lastname" placeholder="Last name."></br>
+        <label for="email">Email</label></br>
+        <input type="text" id="email" name="email" placeholder="Email."></br></br>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Subject." style="height:170px"></textarea></br>
+        <input type="submit" value="Submit">
+        </form>
+      </div>  
+    </div>
+  </div>
   <!--End contact setion-->
 </body>
 </html>
